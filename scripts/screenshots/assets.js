@@ -48,7 +48,7 @@ const bannerIcons = [
 	'apple-pay',
 	'google-pay',
 	'klarna',
-	'sepa-outlined-euro',
+	'sepa-filled-euro',
 	'wero',
 ];
 
