@@ -16,4 +16,4 @@ WordPress icon name: `pronamic-pay/ideal`
 
 ## Trademark
 
-iDEAL is a trademark of Currence iDEAL B.V.. Use this icon in accordance with the brand guidelines of the trademark owner.
+iDEAL is a trademark of Currence iDEAL B.V. Use this icon in accordance with the brand guidelines of the trademark owner.

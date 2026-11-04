@@ -16,4 +16,4 @@ WordPress icon name: `pronamic-pay/wero-monogram`
 
 ## Trademark
 
-Wero monogram is a trademark of European Payments Initiative (EPI). Use this icon in accordance with the brand guidelines of the trademark owner.
+Wero and the Wero monogram are trademarks of European Payments Initiative (EPI). Use this icon in accordance with the brand guidelines of the trademark owner.

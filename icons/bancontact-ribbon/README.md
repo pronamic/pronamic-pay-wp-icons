@@ -17,4 +17,4 @@ WordPress icon name: `pronamic-pay/bancontact-ribbon`
 
 ## Trademark
 
-Bancontact ribbon is a trademark of Bancontact Payconiq Company. Use this icon in accordance with the brand guidelines of the trademark owner.
+Bancontact and the Bancontact ribbon are trademarks of Bancontact Payconiq Company. Use this icon in accordance with the brand guidelines of the trademark owner.

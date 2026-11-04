@@ -17,4 +17,4 @@ WordPress icon name: `pronamic-pay/klarna-monogram`
 
 ## Trademark
 
-Klarna monogram is a trademark of Klarna Bank AB. Use this icon in accordance with the brand guidelines of the trademark owner.
+Klarna and the Klarna monogram are trademarks of Klarna Bank AB. Use this icon in accordance with the brand guidelines of the trademark owner.

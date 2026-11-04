@@ -18,4 +18,4 @@ WordPress icon name: `pronamic-pay/paypal-monogram`
 
 ## Trademark
 
-PayPal monogram is a trademark of PayPal, Inc.. Use this icon in accordance with the brand guidelines of the trademark owner.
+PayPal and the PayPal monogram are trademarks of PayPal, Inc. Use this icon in accordance with the brand guidelines of the trademark owner.

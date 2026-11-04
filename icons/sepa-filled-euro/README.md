@@ -17,4 +17,4 @@ WordPress icon name: `pronamic-pay/sepa-filled-euro`
 
 ## Trademark
 
-SEPA filled euro is a trademark of European Payments Council (EPC). Use this icon in accordance with the brand guidelines of the trademark owner.
+SEPA and the SEPA logo are trademarks of European Payments Council (EPC). Use this icon in accordance with the brand guidelines of the trademark owner.

@@ -16,4 +16,4 @@ WordPress icon name: `pronamic-pay/apple`
 
 ## Trademark
 
-Apple is a trademark of Apple Inc.. Use this icon in accordance with the brand guidelines of the trademark owner.
+Apple is a trademark of Apple Inc. Use this icon in accordance with the brand guidelines of the trademark owner.

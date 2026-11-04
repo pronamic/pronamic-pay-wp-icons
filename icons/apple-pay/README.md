@@ -16,4 +16,4 @@ WordPress icon name: `pronamic-pay/apple-pay`
 
 ## Trademark
 
-Apple Pay is a trademark of Apple Inc.. Use this icon in accordance with the brand guidelines of the trademark owner.
+Apple Pay is a trademark of Apple Inc. Use this icon in accordance with the brand guidelines of the trademark owner.

@@ -16,4 +16,4 @@ WordPress icon name: `pronamic-pay/google-monogram`
 
 ## Trademark
 
-Google monogram is a trademark of Google LLC. Use this icon in accordance with the brand guidelines of the trademark owner.
+Google and the Google monogram are trademarks of Google LLC. Use this icon in accordance with the brand guidelines of the trademark owner.

@@ -17,4 +17,4 @@ WordPress icon name: `pronamic-pay/paypal`
 
 ## Trademark
 
-PayPal is a trademark of PayPal, Inc.. Use this icon in accordance with the brand guidelines of the trademark owner.
+PayPal is a trademark of PayPal, Inc. Use this icon in accordance with the brand guidelines of the trademark owner.
