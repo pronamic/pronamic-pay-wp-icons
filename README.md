@@ -69,7 +69,7 @@ echo \wp_get_icon( 'pronamic-pay/ideal-wero', [ 'size' => 32, 'label' => 'iDEAL 
 | <img src="icons/bancontact/bancontact.svg" width="24" height="24" alt=""> | [Bancontact](icons/bancontact/) | `pronamic-pay/bancontact` |
 | <img src="icons/google-monogram/google-monogram.svg" width="24" height="24" alt=""> | [Google monogram](icons/google-monogram/) | `pronamic-pay/google-monogram` |
 | <img src="icons/google-pay/google-pay.svg" width="24" height="24" alt=""> | [Google Pay](icons/google-pay/) | `pronamic-pay/google-pay` |
-| <img src="icons/ideal-wero/ideal-wero.svg" width="24" height="24" alt=""> | [iDEAL | Wero](icons/ideal-wero/) | `pronamic-pay/ideal-wero` |
+| <img src="icons/ideal-wero/ideal-wero.svg" width="24" height="24" alt=""> | [iDEAL \| Wero](icons/ideal-wero/) | `pronamic-pay/ideal-wero` |
 | <img src="icons/ideal/ideal.svg" width="24" height="24" alt=""> | [iDEAL](icons/ideal/) | `pronamic-pay/ideal` |
 | <img src="icons/klarna-monogram/klarna-monogram.svg" width="24" height="24" alt=""> | [Klarna monogram](icons/klarna-monogram/) | `pronamic-pay/klarna-monogram` |
 | <img src="icons/klarna/klarna.svg" width="24" height="24" alt=""> | [Klarna](icons/klarna/) | `pronamic-pay/klarna` |
