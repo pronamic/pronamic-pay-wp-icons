@@ -29,7 +29,12 @@ All payment method names and marks are trademarks of their respective owners.
 
 == Screenshots ==
 
-
+1. The Pronamic Pay collection in the icon library of the Icon block.
+2. The "Payment method icons" pattern in the block inserter.
+3. The payment method icons on a page in the block editor.
+4. The payment method icons on the frontend of a website.
+5. The icons follow the text colour of the Icon block.
+6. All icons in the Pronamic Pay collection.
 
 == Changelog ==
 

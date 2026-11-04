@@ -1,0 +1,28 @@
+{
+	"$schema": "https://playground.wordpress.net/blueprint-schema.json",
+	"meta": {
+		"title": "Pronamic Pay Icons",
+		"description": "Payment method icons for the WordPress Icon block.",
+		"author": "pronamic",
+		"categories": [ "Icons" ]
+	},
+	"landingPage": "/wp-admin/post.php?post=2&action=edit",
+	"preferredVersions": {
+		"php": "8.3",
+		"wp": "latest"
+	},
+	"login": true,
+	"steps": [
+		{
+			"step": "installPlugin",
+			"pluginData": {
+				"resource": "url",
+				"url": "https://github.com/pronamic/pronamic-pay-wp-icons/releases/download/v1.0.0/pronamic-pay-wp-icons.1.0.0.zip"
+			}
+		},
+		{
+			"step": "runPHP",
+			"code": "<?php require '/wordpress/wp-load.php'; wp_update_post( [ 'ID' => 2, 'post_title' => 'Payment methods', 'post_content' => \"<!-- wp:paragraph -->\\n<p>Pay safely and easily with the payment method of your choice. We accept the following payment methods:</p>\\n<!-- /wp:paragraph -->\\n\\n<!-- wp:pattern {\\\"slug\\\":\\\"pronamic-pay/payment-method-icons\\\"} /-->\" ] );"
+		}
+	]
+}

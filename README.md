@@ -4,6 +4,10 @@ WordPress icon collection with payment method icons by [Pronamic Pay](https://ww
 
 WordPress 7.1 introduced the [Icon API](https://make.wordpress.org/core/2026/07/24/registering-and-rendering-svg-icons-in-wordpress-7-1/) and the Icon block. This plugin registers a **Pronamic Pay** icon collection with single-colour icons of popular payment methods, so websites can show the accepted payment methods in for example a header or footer in a way that blends into the design.
 
+[![Try it in WordPress Playground](https://img.shields.io/badge/Try%20it%20in-WordPress%20Playground-3858e9?logo=wordpress)](https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/pronamic/pronamic-pay-wp-icons/main/.wordpress-org/blueprints/blueprint.json)
+
+![Pronamic Pay Icons](.wordpress-org/banner-1544x500.png)
+
 Background and discussion: [pronamic/pronamic-pay-premium#22](https://github.com/pronamic/pronamic-pay-premium/issues/22).
 
 ## Requirements
@@ -37,9 +41,19 @@ The icons are registered on the `init` action. On WordPress versions without the
 2. Open the icon picker and select the **Pronamic Pay** collection.
 3. Optionally set a text and/or background colour, the icon follows the text colour.
 
+![The Pronamic Pay collection in the icon library of the Icon block](.wordpress-org/screenshot-1.png)
+
+![The icons follow the text colour of the Icon block](.wordpress-org/screenshot-5.png)
+
 ### Block pattern
 
 The **Payment method icons** pattern (category **Pronamic Pay** and **Footer**) inserts a row with the iDEAL | Wero, Bancontact, PayPal, Apple Pay, Google Pay and Klarna icons.
+
+![The "Payment method icons" pattern in the block inserter](.wordpress-org/screenshot-2.png)
+
+![The payment method icons on a page in the block editor](.wordpress-org/screenshot-3.png)
+
+![The payment method icons on the frontend of a website](.wordpress-org/screenshot-4.png)
 
 ### PHP
 
@@ -81,6 +95,21 @@ npx wp-env start
 ```
 
 The `.wp-env.json` maps the source to `wp-content/plugins/pronamic-pay-wp-icons-dev` and the build to `wp-content/plugins/pronamic-pay-wp-icons`.
+
+### Screenshots and wordpress.org assets
+
+The screenshots, banner and icon in [`.wordpress-org/`](.wordpress-org/) are generated with [Playwright](https://playwright.dev/), see [`scripts/screenshots/`](scripts/screenshots/).
+
+```sh
+npx playwright install chromium
+npx wp-env start
+npm run screenshots
+npm run screenshots:assets
+```
+
+The screenshots temporarily add a few demo pages to the `wp-env` site and remove them afterwards. The [Screenshots workflow](.github/workflows/screenshots.yml) runs the same scripts on GitHub and opens a pull request with the changed images.
+
+### Code quality
 
 ```sh
 composer run phpcs

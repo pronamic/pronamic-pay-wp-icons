@@ -124,11 +124,13 @@ final class Plugin {
 		\register_block_pattern(
 			'pronamic-pay/payment-method-icons',
 			[
-				'title'       => \__( 'Payment method icons', 'pronamic-pay-wp-icons' ),
-				'description' => \__( 'A row of icons of the most important payment methods.', 'pronamic-pay-wp-icons' ),
-				'categories'  => [ 'pronamic-pay', 'footer' ],
-				'keywords'    => [ 'ideal', 'wero', 'payment', 'icons' ],
-				'content'     => <<<'HTML'
+				'title'         => \__( 'Payment method icons', 'pronamic-pay-wp-icons' ),
+				'description'   => \__( 'A row of icons of the most important payment methods.', 'pronamic-pay-wp-icons' ),
+				'categories'    => [ 'pronamic-pay', 'footer' ],
+				'keywords'      => [ 'ideal', 'wero', 'payment', 'icons' ],
+				// A narrow viewport enlarges the small icons in the inserter preview.
+				'viewportWidth' => 400,
+				'content'       => <<<'HTML'
 					<!-- wp:group {"layout":{"type":"flex","flexWrap":"wrap"}} -->
 					<div class="wp-block-group">
 					<!-- wp:icon {"icon":"pronamic-pay/ideal-wero","ariaLabel":"iDEAL | Wero","style":{"dimensions":{"width":"32px"}}} /-->

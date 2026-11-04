@@ -19,6 +19,12 @@ phpstan.neon.dist
 
 /rector.php
 
+/artifacts/
+
 /build/
 
 /node_modules/
+
+/scripts/
+
+/.wordpress-org/
