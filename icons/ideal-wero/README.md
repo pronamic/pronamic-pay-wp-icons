@@ -13,7 +13,7 @@ WordPress icon name: `pronamic-pay/ideal-wero`
 
 - Single colour, the fill inherits `currentColor` so the Icon block text colour applies.
 - Cleaned up to a single `<path>` element (removed `style`, `data-name` and other attributes WordPress strips anyway).
-- Based on the square secondary iDEAL | Wero logo, see the discussion in [pronamic/pronamic-pay-premium#22](https://github.com/pronamic/pronamic-pay-premium/issues/22).
+- Based on the square secondary iDEAL | Wero logo.
 
 ## Trademark
 
