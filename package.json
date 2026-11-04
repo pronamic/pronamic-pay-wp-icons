@@ -26,7 +26,8 @@
 	"prettier": "@wordpress/prettier-config",
 	"scripts": {
 		"lint:pkg-json": "wp-scripts lint-pkg-json",
-		"screenshots": "wp-scripts test-playwright --config scripts/screenshots/playwright.config.js",
+		"screenshots": "wp-scripts test-playwright --config scripts/screenshots/playwright.config.js && npm run screenshots:frame",
+		"screenshots:frame": "node scripts/screenshots/frame.js",
 		"screenshots:assets": "node scripts/screenshots/assets.js"
 	}
 }

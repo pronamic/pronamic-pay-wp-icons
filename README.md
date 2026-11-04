@@ -105,7 +105,7 @@ npm run screenshots
 npm run screenshots:assets
 ```
 
-The screenshots temporarily add a few demo pages to the `wp-env` site and remove them afterwards. The [Screenshots workflow](.github/workflows/screenshots.yml) runs the same scripts on GitHub and opens a pull request with the changed images.
+The screenshots temporarily add a few demo pages to the `wp-env` site and remove them afterwards. The raw screenshots are saved in `build/screenshots/` and then framed on an orange background into `.wordpress-org/`. To adjust only the frame, run `npm run screenshots:frame`; no WordPress needed. The [Screenshots workflow](.github/workflows/screenshots.yml) runs the same scripts on GitHub and opens a pull request with the changed images.
 
 ### Code quality
 

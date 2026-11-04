@@ -1,7 +1,9 @@
 /**
  * Screenshots for wordpress.org, the README and marketing.
  *
- * The numbers match the `== Screenshots ==` section in `readme.txt`.
+ * The numbers match the `== Screenshots ==` section in `readme.txt`. The raw
+ * screenshots go to `build/screenshots`, `frame.js` frames them into
+ * `.wordpress-org`.
  */
 const fs = require( 'fs' );
 const path = require( 'path' );
@@ -10,7 +12,7 @@ const { test, expect } = require( '@wordpress/e2e-test-utils-playwright' );
 const root = path.join( __dirname, '../..' );
 
 const screenshotPath = ( number ) =>
-	path.join( root, '.wordpress-org', `screenshot-${ number }.png` );
+	path.join( root, 'build/screenshots', `screenshot-${ number }.png` );
 
 const readContent = ( file ) =>
 	fs.readFileSync( path.join( __dirname, 'content', file ), 'utf8' );
