@@ -52,7 +52,7 @@ const bannerIcons = [
 	'wero',
 ];
 
-const iconIcons = [ 'ideal', 'paypal-monogram', 'klarna-monogram', 'apple' ];
+const iconIcons = [ 'wero-monogram', 'paypal-monogram', 'klarna-monogram', 'apple' ];
 
 /**
  * Banner HTML.
