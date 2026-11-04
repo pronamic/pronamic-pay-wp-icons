@@ -1,0 +1,29 @@
+{
+	"name": "@pronamic/pronamic-pay-wp-icons",
+	"version": "1.0.0",
+	"description": "WordPress icon collection with payment method icons by Pronamic Pay.",
+	"author": "Pronamic",
+	"license": "GPL-2.0-or-later",
+	"keywords": [
+		"pronamic-pay",
+		"icons",
+		"wordpress"
+	],
+	"homepage": "https://github.com/pronamic/pronamic-pay-wp-icons#readme",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/pronamic/pronamic-pay-wp-icons.git"
+	},
+	"bugs": {
+		"url": "https://github.com/pronamic/pronamic-pay-wp-icons/issues"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@wordpress/env": "^11.15.0",
+		"@wordpress/scripts": "^35.0.0"
+	},
+	"prettier": "@wordpress/prettier-config",
+	"scripts": {
+		"lint:pkg-json": "wp-scripts lint-pkg-json"
+	}
+}
