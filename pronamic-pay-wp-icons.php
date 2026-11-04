@@ -13,7 +13,7 @@
  * Description:       WordPress icon collection with payment method icons by Pronamic Pay.
  * Version:           1.0.0
  * Requires at least: 7.1
- * Requires PHP:      8.2
+ * Requires PHP:      8.3
  * Author:            Pronamic
  * Author URI:        https://www.pronamic.eu/
  * Text Domain:       pronamic-pay-wp-icons

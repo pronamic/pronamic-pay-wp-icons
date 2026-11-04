@@ -29,9 +29,7 @@ final class Plugin {
 	 * @return self A single instance of this class.
 	 */
 	public static function instance(): self {
-		if ( null === self::$instance ) {
-			self::$instance = new self();
-		}
+		self::$instance ??= new self();
 
 		return self::$instance;
 	}
