@@ -40,6 +40,8 @@ All payment method names and marks are trademarks of their respective owners.
 
 = 1.0.0 =
 * Initial release.
+* Pronamic Pay icon collection with 18 payment method icons for the WordPress 7.1 Icon API.
+* Payment method icons block pattern.
 
 == Upgrade Notice ==
 
