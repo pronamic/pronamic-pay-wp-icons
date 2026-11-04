@@ -11,7 +11,7 @@ WordPress 7.1 introduced the [Icon API](https://make.wordpress.org/core/2026/07/
 ## Requirements
 
 - WordPress 7.1+
-- PHP 8.2+
+- PHP 8.3+
 
 ## Installation
 
